@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.10"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "3.3.7",
+    "cross-env": "^7.0.3",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-echo": "^1.15.0",
+    "laravel-elixir": "^6.0.0-14",
+    "laravel-elixir-vue-2": "^0.3.0",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.16.2",
+    "pusher-js": "^8.0.2",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "read-env": "^2.0.0",
+    "sass": "^1.62.0",
+    "upper-case": "^2.0.2"
+  }
+}
